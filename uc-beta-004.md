@@ -2,7 +2,7 @@
 
 **Core team:** Athena, Madison, Ledger
 
-**Supporting team:** Beacon
+**Supporting team:** Beacon, Garrison
 
 **Oversight (every use case):** Summit, Contrarian, Cartographer
 
