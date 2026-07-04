@@ -1,6 +1,6 @@
-# UC-BETA-002: TSX Breakout Swing Trade
+# UC-ALPHA-009: Funding Rate Extreme
 
-**Core team:** Athena
+**Core team:** Oracle
 
 **Supporting team:** Summit
 

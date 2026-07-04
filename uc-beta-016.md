@@ -1,4 +1,4 @@
-# UC-BETA-002: TSX Breakout Swing Trade
+# UC-BETA-016: TSX REIT Dislocation
 
 **Core team:** Athena
 

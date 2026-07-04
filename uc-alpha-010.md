@@ -1,6 +1,6 @@
-# UC-BETA-002: TSX Breakout Swing Trade
+# UC-ALPHA-010: Stablecoin Dominance Reversal
 
-**Core team:** Athena
+**Core team:** Oracle
 
 **Supporting team:** Summit
 

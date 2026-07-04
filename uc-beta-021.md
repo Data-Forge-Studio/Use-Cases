@@ -1,4 +1,4 @@
-# UC-BETA-002: TSX Breakout Swing Trade
+# UC-BETA-021: Post-Dividend Dip Swing
 
 **Core team:** Athena
 

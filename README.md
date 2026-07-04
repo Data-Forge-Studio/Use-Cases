@@ -2,20 +2,24 @@
 
 A roster of which OpenClaw agents work on which trading use case category.
 
-Each file here represents one use case (crypto or equity) and lists the agents involved in it, split into a core team and a supporting team.
+Each file here represents one real use case from the live use case registry and lists the agents actually involved in it, verified directly against the real pipeline code (which agent it calls, and which agent it reports results to), not inferred from the use case's theme or name.
 
 ## Structure
 
-Files are named after their use case ID, for example `uc-alpha-001.md`, `uc-beta-012.md`. Every file follows the same shape:
+Files are named after their use case ID, for example `uc-alpha-001.md`, `uc-beta-012.md`, `uc-comm-003.md`. Every file follows the same shape:
 
 - The use case ID and name
-- **Core team** -- the agents most directly responsible for analysis and decision-making on this use case
-- **Supporting team** -- agents that contribute alerting, review, or cross-cutting context
+- **Core team** -- the agent that directly generates the analysis for this use case, confirmed via a real code call
+- **Supporting team** -- agents confirmed to receive or contribute to this use case's output via a real, traceable code path
+- **Status**, shown only when a use case is not currently active (for example, temporarily inactive)
 
 ## Naming convention
 
 - `UC-ALPHA-*` -- crypto use cases
 - `UC-BETA-*` -- equity use cases
+- `UC-COMM-*` -- commodity use cases
+
+The live registry has one additional entry not published here, a suspended use case that also references a real public figure by name; it is excluded regardless of any other consideration.
 
 ## What this repo does not contain
 

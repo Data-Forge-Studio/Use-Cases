@@ -1,4 +1,4 @@
-# UC-BETA-002: TSX Breakout Swing Trade
+# UC-BETA-024: Precious Metals Physical ETF
 
 **Core team:** Athena
 

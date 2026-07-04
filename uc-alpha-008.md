@@ -1,6 +1,6 @@
-# UC-BETA-002: TSX Breakout Swing Trade
+# UC-ALPHA-008: On-Chain Accumulation Pattern
 
-**Core team:** Athena
+**Core team:** Oracle
 
 **Supporting team:** Summit
 

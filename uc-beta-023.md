@@ -1,4 +1,4 @@
-# UC-BETA-002: TSX Breakout Swing Trade
+# UC-BETA-023: Consecutive Down Day Reversal
 
 **Core team:** Athena
 
