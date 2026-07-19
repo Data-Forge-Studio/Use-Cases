@@ -1,31 +1,34 @@
-# Use-Cases
+# Use Cases
 
-A roster of which OpenClaw agents work on which trading use case category.
+How the DataForgeStudio.xyz intelligence platform monitors markets, and what it
+publishes.
 
-Each file here represents one real use case from the live use case registry and lists the agents actually involved in it, verified directly against the real pipeline code (which agent it calls, and which agent it reports results to), not inferred from the use case's theme or name.
+This repository describes capabilities at a high level. It covers what each area
+watches, why that matters, and the controls every signal passes through. It does
+not publish indicators, thresholds, data sources, scoring logic or entry and exit
+levels — those are the implementation, and they stay private.
 
-## Structure
+## Capability areas
 
-Files are named after their use case ID, for example `uc-alpha-001.md`, `uc-beta-012.md`, `uc-comm-003.md`. Every file follows the same shape:
+- **[Crypto Intelligence](CRYPTO-INTELLIGENCE.md)** — digital asset markets,
+  positioning and market structure
+- **[Equity Intelligence](EQUITY-INTELLIGENCE.md)** — Canadian and US listed
+  equities, screening and corporate events
+- **[Macro Intelligence](MACRO-INTELLIGENCE.md)** — rates, inflation, currencies,
+  commodities and geopolitical conditions
+- **[Political Risk](POLITICAL-RISK.md)** — Canadian and US policy and regulatory
+  developments from primary sources
+- **[Fundamental Analysis](FUNDAMENTAL-ANALYSIS.md)** — company financial health,
+  filings and valuation
 
-- The use case ID and name
-- **Core team** -- the agent that directly generates the analysis for this use case, confirmed via a real code call
-- **Supporting team** -- agents confirmed to receive or contribute to this use case's output via a real, traceable code path
-- **Status**, shown only when a use case is not currently active (for example, temporarily inactive)
+## On performance
 
-## Naming convention
+No performance figures are published. Outcome measurement is in development, and
+a win rate drawn from too small or too immature a sample would mislead rather than
+inform. Figures will appear when the underlying data supports them.
 
-- `UC-ALPHA-*` -- crypto use cases
-- `UC-BETA-*` -- equity use cases
-- `UC-COMM-*` -- commodity use cases
+## Not investment advice
 
-The live registry has one additional entry not published here, a suspended use case that also references a real public figure by name; it is excluded regardless of any other consideration.
-
-## What this repo does not contain
-
-Trading logic, thesis statements, entry and exit rules, position sizing, and risk parameters are maintained privately and are not published here. This repo answers who works on this, not how the strategy works.
-
-## Related repos
-
-- [Agents](https://github.com/Data-Forge-Studio/Agents) -- full profile for every agent named here
-- [Avatars](https://github.com/Data-Forge-Studio/Avatars) -- placeholder avatar images for each agent
+Everything described here is an automated research and monitoring system built for
+private use. Nothing in this repository is a recommendation to buy or sell any
+security or digital asset.
